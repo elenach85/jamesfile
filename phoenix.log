@@ -1,0 +1,116 @@
+INFO    2015-10-26 14:27:06.895 [Phoenix ] (): Logger started
+WARN    2015-10-26 14:27:06.994 [Phoenix ] (): Phoenix was not started by the daemon thus it will not be possible to restart the JVM via the Management interface.
+INFO    2015-10-26 14:27:07.586 [Phoenix.] (): Installing Sar located at file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar.
+WARN    2015-10-26 14:27:08.028 [Phoenix.] (): The file conf/sqlResources.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\sqlResources.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.030 [Phoenix.] (): The file conf/james-fetchmail.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\james-fetchmail.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.031 [Phoenix.] (): The file conf/james-smtphandlerchain.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\james-smtphandlerchain.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.033 [Phoenix.] (): The file conf/miResources.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\miResources.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.038 [Phoenix.] (): The file conf/james-listmanager.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\james-listmanager.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.039 [Phoenix.] (): The file conf/james-liststores.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\james-liststores.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.046 [Phoenix.] (): The file conf/samples/fetchmail/maxMessageSize.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\samples\fetchmail\maxMessageSize.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.047 [Phoenix.] (): The file conf/samples/fetchmail/oneAccountManyUsers.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\samples\fetchmail\oneAccountManyUsers.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.049 [Phoenix.] (): The file conf/samples/fetchmail/oneAccountManyUsersDynamic.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\samples\fetchmail\oneAccountManyUsersDynamic.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.050 [Phoenix.] (): The file conf/samples/fetchmail/oneAccountPerUser.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\samples\fetchmail\oneAccountPerUser.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.051 [Phoenix.] (): The file conf/samples/fetchmail/oneAccountPerUserDynamic.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\samples\fetchmail\oneAccountPerUserDynamic.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.052 [Phoenix.] (): The file conf/samples/fetchmail/remoteReceivedHeader.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\conf\samples\fetchmail\remoteReceivedHeader.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.055 [Phoenix.] (): The file SAR-INF/config.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\SAR-INF\config.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.056 [Phoenix.] (): The file SAR-INF/assembly.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\SAR-INF\assembly.xml because there is a file in the way.
+WARN    2015-10-26 14:27:08.057 [Phoenix.] (): The file SAR-INF/environment.xml can not be extracted from the Sar "file:/D:/james-binary-2.3.2.1/james-2.3.2.1/apps/james.sar" into directory D:\james-binary-2.3.2.1\james-2.3.2.1\apps\james\SAR-INF\environment.xml because there is a file in the way.
+INFO    2015-10-26 14:27:09.322 [Phoenix.] (): Verifying that all key-stores have valid names.
+INFO    2015-10-26 14:27:09.322 [Phoenix.] (): Verify that any keystore names used by grant or permission reference actual keystores
+INFO    2015-10-26 14:27:09.322 [Phoenix.] (): Verify that if target is null then actions is null.
+INFO    2015-10-26 14:27:10.110 [Phoenix.] (): Verifying that the name specified for Blocks and BlockListeners are valid.
+INFO    2015-10-26 14:27:10.112 [Phoenix.] (): Verifying that the names specified for Component are valid.
+INFO    2015-10-26 14:27:10.113 [Phoenix.] (): Verifying that the names specified for the Components are unique.
+INFO    2015-10-26 14:27:10.113 [Phoenix.] (): Verifying that the dependency mapping is valid according to ComponentInfos.
+INFO    2015-10-26 14:27:10.113 [Phoenix.] (): Verifying that the dependency mapping for every Component is valid with respect to other components.
+INFO    2015-10-26 14:27:10.114 [Phoenix.] (): Verifying that there are no circular dependencies between Components.
+INFO    2015-10-26 14:27:10.118 [Phoenix.] (): Verifying that the name specified for Blocks and BlockListeners are unique.
+INFO    2015-10-26 14:27:10.119 [Phoenix.] (): Verifying that the specified Blocks have valid types.
+INFO    2015-10-26 14:27:10.299 [Phoenix.] (): Verifying that the specified BlockListeners have valid types.
+INFO    2015-10-26 14:27:10.571 [Phoenix.] (): 20 Blocks to process for phase "startup". Order of processing = [dnsserver, database-connections, mailstore, users-store, localusersrepository, spoolrepository, sockets, thread-manager, scheduler, James, mailetpackages, matcherpackages, spoolmanager, connections, remotemanager, pop3server, smtpserver, nntp-repository, nntpserver, fetchmail].
+ERROR   2015-10-26 14:27:10.899 [Phoenix.] (): Component named "users-store" failed to pass through the Starting stage. (Reason: org.apache.avalon.framework.configuration.ConfigurationException: destination>>URL).
+ERROR   2015-10-26 14:27:10.901 [Phoenix.] (): There was an error running phase "startup" for Block named "users-store". (Reason: Component named "users-store" failed to pass through the Starting stage. (Reason: org.apache.avalon.framework.configuration.ConfigurationException: destination>>URL).).
+org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleException: Component named "users-store" failed to pass through the Starting stage. (Reason: org.apache.avalon.framework.configuration.ConfigurationException: destination>>URL).
+	at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.fail(LifecycleHelper.java:354)
+	at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.startup(LifecycleHelper.java:226)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.startup(DefaultApplication.java:530)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.doRunPhase(DefaultApplication.java:478)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.runPhase(DefaultApplication.java:409)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.start(DefaultApplication.java:180)
+	at org.apache.avalon.framework.container.ContainerUtil.start(ContainerUtil.java:260)
+rethrown from
+org.apache.avalon.framework.configuration.ConfigurationException: destination>>URL
+	at org.apache.james.userrepository.UsersFileRepository.configure(UsersFileRepository.java:134)
+	at org.apache.avalon.framework.container.ContainerUtil.configure(ContainerUtil.java:201)
+	at org.apache.james.core.AvalonUsersStore.initialize(AvalonUsersStore.java:130)
+	at org.apache.avalon.framework.container.ContainerUtil.initialize(ContainerUtil.java:244)
+	at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.startup(LifecycleHelper.java:200)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.startup(DefaultApplication.java:530)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.doRunPhase(DefaultApplication.java:478)
+rethrown from
+java.io.IOException: Синтаксическая ошибка в имени файла, имени папки или метке тома
+	at java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+	at java.io.File.getCanonicalPath(Unknown Source)
+	at java.io.File.getCanonicalFile(Unknown Source)
+	at org.apache.james.userrepository.UsersFileRepository.configure(UsersFileRepository.java:132)
+	at org.apache.avalon.framework.container.ContainerUtil.configure(ContainerUtil.java:201)
+	at org.apache.james.core.AvalonUsersStore.initialize(AvalonUsersStore.java:130)
+INFO    2015-10-26 14:27:10.934 [Phoenix.] (): exception while starting:Component named "users-store" failed to pass through the Starting stage. (Reason: org.apache.avalon.framework.configuration.ConfigurationException: destination>>URL).
+
+WARN    2015-10-26 14:27:11.039 [Phoenix.] (): Failed to start application james.
+org.apache.avalon.framework.CascadingException: Failed to start application james.
+	at org.apache.avalon.phoenix.components.kernel.DefaultKernel.startup(DefaultKernel.java:313)
+	at org.apache.avalon.phoenix.components.kernel.DefaultKernel.addApplication(DefaultKernel.java:376)
+	at org.apache.avalon.phoenix.components.deployer.DefaultDeployer.deploy(DefaultDeployer.java:357)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployFile(DefaultEmbeddor.java:542)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployFile(DefaultEmbeddor.java:535)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployFiles(DefaultEmbeddor.java:520)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployDefaultApplications(DefaultEmbeddor.java:509)
+rethrown from
+org.apache.avalon.phoenix.interfaces.ApplicationException: Component named "users-store" failed to pass through the Starting stage. (Reason: org.apache.avalon.framework.configuration.ConfigurationException: destination>>URL).
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.start(DefaultApplication.java:186)
+	at org.apache.avalon.framework.container.ContainerUtil.start(ContainerUtil.java:260)
+	at org.apache.avalon.phoenix.components.kernel.DefaultKernel.startup(DefaultKernel.java:295)
+	at org.apache.avalon.phoenix.components.kernel.DefaultKernel.addApplication(DefaultKernel.java:376)
+	at org.apache.avalon.phoenix.components.deployer.DefaultDeployer.deploy(DefaultDeployer.java:357)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployFile(DefaultEmbeddor.java:542)
+	at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployFile(DefaultEmbeddor.java:535)
+rethrown from
+org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleException: Component named "users-store" failed to pass through the Starting stage. (Reason: org.apache.avalon.framework.configuration.ConfigurationException: destination>>URL).
+	at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.fail(LifecycleHelper.java:354)
+	at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.startup(LifecycleHelper.java:226)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.startup(DefaultApplication.java:530)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.doRunPhase(DefaultApplication.java:478)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.runPhase(DefaultApplication.java:409)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.start(DefaultApplication.java:180)
+	at org.apache.avalon.framework.container.ContainerUtil.start(ContainerUtil.java:260)
+rethrown from
+org.apache.avalon.framework.configuration.ConfigurationException: destination>>URL
+	at org.apache.james.userrepository.UsersFileRepository.configure(UsersFileRepository.java:134)
+	at org.apache.avalon.framework.container.ContainerUtil.configure(ContainerUtil.java:201)
+	at org.apache.james.core.AvalonUsersStore.initialize(AvalonUsersStore.java:130)
+	at org.apache.avalon.framework.container.ContainerUtil.initialize(ContainerUtil.java:244)
+	at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.startup(LifecycleHelper.java:200)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.startup(DefaultApplication.java:530)
+	at org.apache.avalon.phoenix.components.application.DefaultApplication.doRunPhase(DefaultApplication.java:478)
+rethrown from
+java.io.IOException: Синтаксическая ошибка в имени файла, имени папки или метке тома
+	at java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+	at java.io.File.getCanonicalPath(Unknown Source)
+	at java.io.File.getCanonicalFile(Unknown Source)
+	at org.apache.james.userrepository.UsersFileRepository.configure(UsersFileRepository.java:132)
+	at org.apache.avalon.framework.container.ContainerUtil.configure(ContainerUtil.java:201)
+	at org.apache.james.core.AvalonUsersStore.initialize(AvalonUsersStore.java:130)
+WARN    2015-10-26 14:27:11.185 [Phoenix.] (): Error deleting Work Directory "D:\james-binary-2.3.2.1\james-2.3.2.1\work\james-1445858827634". (Reason: File D:\james-binary-2.3.2.1\james-2.3.2.1\work\james-1445858827634\SAR-INF\lib\mailet-api-2.3.jar unable to be deleted.)
+java.io.IOException: File D:\james-binary-2.3.2.1\james-2.3.2.1\work\james-1445858827634\SAR-INF\lib\mailet-api-2.3.jar unable to be deleted.
+	at org.apache.avalon.excalibur.io.FileUtil.forceDelete(FileUtil.java:743)
+	at org.apache.avalon.excalibur.io.FileUtil.cleanDirectory(FileUtil.java:910)
+	at org.apache.avalon.excalibur.io.FileUtil.deleteDirectory(FileUtil.java:866)
+	at org.apache.avalon.excalibur.io.FileUtil.forceDelete(FileUtil.java:735)
+	at org.apache.avalon.excalibur.io.FileUtil.cleanDirectory(FileUtil.java:910)
+	at org.apache.avalon.excalibur.io.FileUtil.deleteDirectory(FileUtil.java:866)
+	at org.apache.avalon.excalibur.io.FileUtil.forceDelete(FileUtil.java:735)
+WARN    2015-10-26 14:27:11.265 [Phoenix.] (): Failed to stop application james as it is not initialized/started.

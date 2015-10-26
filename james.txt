@@ -1,0 +1,300 @@
+        at org.apache.avalon.phoenix.components.kernel.DefaultKernel.startup(Def
+aultKernel.java:295)
+        ... 16 more
+Caused by: org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleException:
+Component named "users-store" failed to pass through the Starting stage. (Reason
+: org.apache.avalon.framework.configuration.ConfigurationException: destination>
+>URL).
+        at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.fail
+(LifecycleHelper.java:354)
+        at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.star
+tup(LifecycleHelper.java:226)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.s
+tartup(DefaultApplication.java:530)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.d
+oRunPhase(DefaultApplication.java:478)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.r
+unPhase(DefaultApplication.java:409)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.s
+tart(DefaultApplication.java:180)
+        ... 18 more
+Caused by: org.apache.avalon.framework.configuration.ConfigurationException: des
+tination>>URL
+        at org.apache.james.userrepository.UsersFileRepository.configure(UsersFi
+leRepository.java:134)
+        at org.apache.avalon.framework.container.ContainerUtil.configure(Contain
+erUtil.java:201)
+        at org.apache.james.core.AvalonUsersStore.initialize(AvalonUsersStore.ja
+va:130)
+        at org.apache.avalon.framework.container.ContainerUtil.initialize(Contai
+nerUtil.java:244)
+        at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.star
+tup(LifecycleHelper.java:200)
+        ... 22 more
+Caused by: java.io.IOException: Синтаксическая ошибка в имени файла, имени папки
+ или метке тома
+        at java.io.WinNTFileSystem.canonicalize0(Native Method)
+        at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+        at java.io.File.getCanonicalPath(Unknown Source)
+        at java.io.File.getCanonicalFile(Unknown Source)
+        at org.apache.james.userrepository.UsersFileRepository.configure(UsersFi
+leRepository.java:132)
+        ... 26 more
+rethrown from
+org.apache.avalon.phoenix.interfaces.ApplicationException: Component named "user
+s-store" failed to pass through the Starting stage. (Reason: org.apache.avalon.f
+ramework.configuration.ConfigurationException: destination>>URL).
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.s
+tart(DefaultApplication.java:186)
+        at org.apache.avalon.framework.container.ContainerUtil.start(ContainerUt
+il.java:260)
+        at org.apache.avalon.phoenix.components.kernel.DefaultKernel.startup(Def
+aultKernel.java:295)
+        at org.apache.avalon.phoenix.components.kernel.DefaultKernel.addApplicat
+ion(DefaultKernel.java:376)
+        at org.apache.avalon.phoenix.components.deployer.DefaultDeployer.deploy(
+DefaultDeployer.java:357)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+ile(DefaultEmbeddor.java:542)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+ile(DefaultEmbeddor.java:535)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+iles(DefaultEmbeddor.java:520)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployD
+efaultApplications(DefaultEmbeddor.java:509)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.execute
+(DefaultEmbeddor.java:268)
+        at org.apache.avalon.phoenix.frontends.CLIMain.run(CLIMain.java:198)
+        at org.apache.avalon.phoenix.frontends.CLIMain.execute(CLIMain.java:184)
+
+        at org.apache.avalon.phoenix.frontends.CLIMain.main(CLIMain.java:145)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at org.apache.avalon.phoenix.launcher.Main.startup(Main.java:135)
+        at org.apache.avalon.phoenix.launcher.Main.main(Main.java:84)
+Caused by: org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleException:
+Component named "users-store" failed to pass through the Starting stage. (Reason
+: org.apache.avalon.framework.configuration.ConfigurationException: destination>
+>URL).
+        at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.fail
+(LifecycleHelper.java:354)
+        at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.star
+tup(LifecycleHelper.java:226)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.s
+tartup(DefaultApplication.java:530)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.d
+oRunPhase(DefaultApplication.java:478)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.r
+unPhase(DefaultApplication.java:409)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.s
+tart(DefaultApplication.java:180)
+        ... 18 more
+Caused by: org.apache.avalon.framework.configuration.ConfigurationException: des
+tination>>URL
+        at org.apache.james.userrepository.UsersFileRepository.configure(UsersFi
+leRepository.java:134)
+        at org.apache.avalon.framework.container.ContainerUtil.configure(Contain
+erUtil.java:201)
+        at org.apache.james.core.AvalonUsersStore.initialize(AvalonUsersStore.ja
+va:130)
+        at org.apache.avalon.framework.container.ContainerUtil.initialize(Contai
+nerUtil.java:244)
+        at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.star
+tup(LifecycleHelper.java:200)
+        ... 22 more
+Caused by: java.io.IOException: Синтаксическая ошибка в имени файла, имени папки
+ или метке тома
+        at java.io.WinNTFileSystem.canonicalize0(Native Method)
+        at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+        at java.io.File.getCanonicalPath(Unknown Source)
+        at java.io.File.getCanonicalFile(Unknown Source)
+        at org.apache.james.userrepository.UsersFileRepository.configure(UsersFi
+leRepository.java:132)
+        ... 26 more
+rethrown from
+org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleException: Component n
+amed "users-store" failed to pass through the Starting stage. (Reason: org.apach
+e.avalon.framework.configuration.ConfigurationException: destination>>URL).
+        at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.fail
+(LifecycleHelper.java:354)
+        at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.star
+tup(LifecycleHelper.java:226)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.s
+tartup(DefaultApplication.java:530)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.d
+oRunPhase(DefaultApplication.java:478)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.r
+unPhase(DefaultApplication.java:409)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.s
+tart(DefaultApplication.java:180)
+        at org.apache.avalon.framework.container.ContainerUtil.start(ContainerUt
+il.java:260)
+        at org.apache.avalon.phoenix.components.kernel.DefaultKernel.startup(Def
+aultKernel.java:295)
+        at org.apache.avalon.phoenix.components.kernel.DefaultKernel.addApplicat
+ion(DefaultKernel.java:376)
+        at org.apache.avalon.phoenix.components.deployer.DefaultDeployer.deploy(
+DefaultDeployer.java:357)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+ile(DefaultEmbeddor.java:542)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+ile(DefaultEmbeddor.java:535)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+iles(DefaultEmbeddor.java:520)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployD
+efaultApplications(DefaultEmbeddor.java:509)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.execute
+(DefaultEmbeddor.java:268)
+        at org.apache.avalon.phoenix.frontends.CLIMain.run(CLIMain.java:198)
+        at org.apache.avalon.phoenix.frontends.CLIMain.execute(CLIMain.java:184)
+
+        at org.apache.avalon.phoenix.frontends.CLIMain.main(CLIMain.java:145)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at org.apache.avalon.phoenix.launcher.Main.startup(Main.java:135)
+        at org.apache.avalon.phoenix.launcher.Main.main(Main.java:84)
+Caused by: org.apache.avalon.framework.configuration.ConfigurationException: des
+tination>>URL
+        at org.apache.james.userrepository.UsersFileRepository.configure(UsersFi
+leRepository.java:134)
+        at org.apache.avalon.framework.container.ContainerUtil.configure(Contain
+erUtil.java:201)
+        at org.apache.james.core.AvalonUsersStore.initialize(AvalonUsersStore.ja
+va:130)
+        at org.apache.avalon.framework.container.ContainerUtil.initialize(Contai
+nerUtil.java:244)
+        at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.star
+tup(LifecycleHelper.java:200)
+        ... 22 more
+Caused by: java.io.IOException: Синтаксическая ошибка в имени файла, имени папки
+ или метке тома
+        at java.io.WinNTFileSystem.canonicalize0(Native Method)
+        at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+        at java.io.File.getCanonicalPath(Unknown Source)
+        at java.io.File.getCanonicalFile(Unknown Source)
+        at org.apache.james.userrepository.UsersFileRepository.configure(UsersFi
+leRepository.java:132)
+        ... 26 more
+rethrown from
+org.apache.avalon.framework.configuration.ConfigurationException: destination>>U
+RL
+        at org.apache.james.userrepository.UsersFileRepository.configure(UsersFi
+leRepository.java:134)
+        at org.apache.avalon.framework.container.ContainerUtil.configure(Contain
+erUtil.java:201)
+        at org.apache.james.core.AvalonUsersStore.initialize(AvalonUsersStore.ja
+va:130)
+        at org.apache.avalon.framework.container.ContainerUtil.initialize(Contai
+nerUtil.java:244)
+        at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.star
+tup(LifecycleHelper.java:200)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.s
+tartup(DefaultApplication.java:530)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.d
+oRunPhase(DefaultApplication.java:478)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.r
+unPhase(DefaultApplication.java:409)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.s
+tart(DefaultApplication.java:180)
+        at org.apache.avalon.framework.container.ContainerUtil.start(ContainerUt
+il.java:260)
+        at org.apache.avalon.phoenix.components.kernel.DefaultKernel.startup(Def
+aultKernel.java:295)
+        at org.apache.avalon.phoenix.components.kernel.DefaultKernel.addApplicat
+ion(DefaultKernel.java:376)
+        at org.apache.avalon.phoenix.components.deployer.DefaultDeployer.deploy(
+DefaultDeployer.java:357)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+ile(DefaultEmbeddor.java:542)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+ile(DefaultEmbeddor.java:535)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+iles(DefaultEmbeddor.java:520)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployD
+efaultApplications(DefaultEmbeddor.java:509)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.execute
+(DefaultEmbeddor.java:268)
+        at org.apache.avalon.phoenix.frontends.CLIMain.run(CLIMain.java:198)
+        at org.apache.avalon.phoenix.frontends.CLIMain.execute(CLIMain.java:184)
+
+        at org.apache.avalon.phoenix.frontends.CLIMain.main(CLIMain.java:145)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at org.apache.avalon.phoenix.launcher.Main.startup(Main.java:135)
+        at org.apache.avalon.phoenix.launcher.Main.main(Main.java:84)
+Caused by: java.io.IOException: Синтаксическая ошибка в имени файла, имени папки
+ или метке тома
+        at java.io.WinNTFileSystem.canonicalize0(Native Method)
+        at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+        at java.io.File.getCanonicalPath(Unknown Source)
+        at java.io.File.getCanonicalFile(Unknown Source)
+        at org.apache.james.userrepository.UsersFileRepository.configure(UsersFi
+leRepository.java:132)
+        ... 26 more
+rethrown from
+java.io.IOException: Синтаксическая ошибка в имени файла, имени папки или метке
+тома
+        at java.io.WinNTFileSystem.canonicalize0(Native Method)
+        at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+        at java.io.File.getCanonicalPath(Unknown Source)
+        at java.io.File.getCanonicalFile(Unknown Source)
+        at org.apache.james.userrepository.UsersFileRepository.configure(UsersFi
+leRepository.java:132)
+        at org.apache.avalon.framework.container.ContainerUtil.configure(Contain
+erUtil.java:201)
+        at org.apache.james.core.AvalonUsersStore.initialize(AvalonUsersStore.ja
+va:130)
+        at org.apache.avalon.framework.container.ContainerUtil.initialize(Contai
+nerUtil.java:244)
+        at org.apache.avalon.phoenix.containerkit.lifecycle.LifecycleHelper.star
+tup(LifecycleHelper.java:200)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.s
+tartup(DefaultApplication.java:530)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.d
+oRunPhase(DefaultApplication.java:478)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.r
+unPhase(DefaultApplication.java:409)
+        at org.apache.avalon.phoenix.components.application.DefaultApplication.s
+tart(DefaultApplication.java:180)
+        at org.apache.avalon.framework.container.ContainerUtil.start(ContainerUt
+il.java:260)
+        at org.apache.avalon.phoenix.components.kernel.DefaultKernel.startup(Def
+aultKernel.java:295)
+        at org.apache.avalon.phoenix.components.kernel.DefaultKernel.addApplicat
+ion(DefaultKernel.java:376)
+        at org.apache.avalon.phoenix.components.deployer.DefaultDeployer.deploy(
+DefaultDeployer.java:357)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+ile(DefaultEmbeddor.java:542)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+ile(DefaultEmbeddor.java:535)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployF
+iles(DefaultEmbeddor.java:520)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.deployD
+efaultApplications(DefaultEmbeddor.java:509)
+        at org.apache.avalon.phoenix.components.embeddor.DefaultEmbeddor.execute
+(DefaultEmbeddor.java:268)
+        at org.apache.avalon.phoenix.frontends.CLIMain.run(CLIMain.java:198)
+        at org.apache.avalon.phoenix.frontends.CLIMain.execute(CLIMain.java:184)
+
+        at org.apache.avalon.phoenix.frontends.CLIMain.main(CLIMain.java:145)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+        at java.lang.reflect.Method.invoke(Unknown Source)
+        at org.apache.avalon.phoenix.launcher.Main.startup(Main.java:135)
+        at org.apache.avalon.phoenix.launcher.Main.main(Main.java:84)
+
+---------------------------------------------------------
+The log file may contain further details of error.
+Please check the configuration files and restart Phoenix.
+If the problem persists, contact the Avalon project.  See
+http://jakarta.apache.org/avalon for more information.
+Shutting down Phoenix.
+C:\james-binary-2.3.2.1\james-2.3.2.1\bin>
